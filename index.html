@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel desination form</title>
+  <link rel="stylesheet" href="surveystyle.css">
+</head>
+
+  <body>
+  <header>
+<h1 id="title">Favourite Travel Destination</h1>
+</header>
+<hr>
+
+<nav id="navbar">
+<a href="#">Home</a>&nbsp; &nbsp;
+<a href="#">Contact-us</a>&nbsp; &nbsp;
+<a href="#">Gallery</a>&nbsp; &nbsp;
+</nav>
+
+<main>
+<br>
+<br>
+  <p id="description">
+  Travel is a vital part of human life as it is an opportunity to learn other cultures and explore the beauty of nature and different landscapes.
+  <br>
+  <br>
+  Tourist can choose between historical sites in Europe and the middle east where wars were fought and conquest made or geographical beauties in the Americas and Africa. 
+<br>
+<br>
+  Pick your favourite travel desitination in the survey form below.
+</p>
+
+<form id="survey-form">
+  
+  <label id="name-label" for="name">Name:</label>
+  <input id="name" type="text" name="name" placeholder="Tourist's name" required></input>
+    <br>
+    <br>
+  <label id="email-label" for="email">Email:</label>
+  <input id="email" type="email" name="email" placeholder="Tourist's email" required></input>
+    <br>
+    <br>
+<label id="number-label" for="age">Age:</label>
+<input id="number" type="number" name="age" placeholder="Select"  min="16" max="99" required></input>
+
+    <br>
+    <br>
+
+  <label for="destination">Pick your choice destination</label>
+  <select id="dropdown" name="destination">
+    <option value="egypt">Africa: Great Pyramids, Egypt</option>
+    <option value="tanzania">Africa: Zanzibar, Tanzania</option>
+    <option value="bahamas">Americas: Caribbean, Bahamas</option>
+    <option value="uae">Asia: Dubai, UAE</option>
+    <option value="india">Asia: Taj Mahal, India</option>
+    <option value="greece">Europe: Athens, Greece</option>
+    <option value="turkey">Europe: Istanbul, Turkey</option>
+</select>
+
+    <br>
+    <br>
+<p>You can also choose below special preference on the kind of tour or event you would like during your trip.</p>
+<label for="preference"><b>Travel Preference</b></label>
+<br>
+<input type="radio" id="beach" name="preference" value="beach"></input>
+<label for="beach">Beach</label>
+<br>
+<input type="radio" id="historic-sites" name="preference" value="historic-sites"></input>
+<label for="historic-sites">Historic sites</label>
+<br>
+<input type="radio" id="museum" name="preference" value="museum"></input>
+<label for="museum">Museum and Hotel</label>
+<br>
+<input type="radio" id="road-trip" name="preference" value="road-trip"></input>
+<label for="road-trip">Road trip</label>
+<br>
+<br>
+<label for="special requests"><b>Special requests</b></label>
+<br>
+<input id="special requests" name="tour guide" type="checkbox" value="tour guide">Tour guide - $50</input>
+
+<input id="special requests" name="pick-up ride" type="checkbox" value="pick-up ride">Pick-up ride - $50</input>
+
+<input id="special requests" name="lunch" type="checkbox" value="lunch">Lunch - $30</input>
+
+<input id="special requests" name="media" type="checkbox" value="media">Video coverage - $50</input>
+<br>
+<input id="special requests" name="souvenoir" type="checkbox" value="souvenoir">Souvenoir - $50</input>
+
+<input id="special requests" name="shoes" type="checkbox" value="shoes">Comfort shoes - $10</input>
+
+<input id="special requests" name="spa" type="checkbox" value="spa">Spa services - $50</input>
+<br>
+<br>
+<label for="blog"><b>Additional comments</b></label>
+<br>
+<textarea id="blog" name="blog" rows="5" column="50">
+</textarea>
+<br>
+<input id="submit" type="button" value="Submit"></input>
+
+ </form>
+
+</main>
+<br>
+<footer>
+&copy The Travel Destination 2022 <br>
+Abdulbari
+<br>
++2348038740487
+</footer>
+
+ </body>
+  </html>

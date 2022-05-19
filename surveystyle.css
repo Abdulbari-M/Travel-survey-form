@@ -1,0 +1,88 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: lightsteelblue;
+    display: inline-block
+    margin-inline: auto;
+    align-items: center;
+    font-family: calibri;
+    max-width: fit-content;
+    width: 100%;
+    height: auto;
+    line-height: 1.3rem; 
+    font-size: 1.1rem;
+}
+
+header {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: helvetica;
+    line-height: 1.3rem;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.3rem;
+    font-display: block;
+}
+
+nav {
+     float: right;
+    height: 100%;
+    min-width: 220px;
+    width: 220px;
+    background-color: #DECAB0;
+    text-align: center;
+    border: 0.1rem dotted black;
+}
+
+nav:hover {
+    cursor: pointer;
+    font-weight: bold;
+    background-color: aqua
+}
+
+#title {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    line-height: 2.5rem
+
+}
+
+#name {
+    border: 0.12rem solid
+}
+
+#email {
+    border: 0.12rem solid
+}
+
+#number {
+    border: 0.12rem solid
+}
+
+#dropdown {
+    border: 0.12rem solid
+}
+
+#blog {
+    border: 0.12rem solid
+}
+
+#submit {
+    border: 0.12rem solid
+}
+
+#submit:hover {
+    color: navy;
+    background-color: aquamarine;
+    border: black solid 1.7px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+footer {
+    font-style: italic;
+}
+
+@media only screen and (min-width: 320px)
